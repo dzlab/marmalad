@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray" >
+        
+    <RelativeLayout
+		android:id="@+id/widget31"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true">		
+    	<SeekBar
+        	android:id="@+id/seekBar"
+        	android:layout_height="wrap_content"
+        	android:layout_width="fill_parent"
+    	    />
+    	<ImageView android:id="@+id/controler"
+    	    android:src="@drawable/ic_ctrl_play"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/seekBar"/>
+    	
+	</RelativeLayout>
+	
+    
+    <ListView 
+    	android:id="@android:id/list"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="@dimen/list_padding"
+    	android:paddingRight="@dimen/list_padding" 
+    	android:layout_alignParentTop="true"
+    	/>
+    
+    
+</RelativeLayout>

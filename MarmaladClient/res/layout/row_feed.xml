@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light" >
+    
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@null" />
+<!--         
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@null" />
+-->         
+	<TextView
+        android:id="@+id/showName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="-5dp"
+        android:background="#fbe0d9"
+        android:textSize="15sp" />
+<!--
+	<RelativeLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content" >
+    	
+    	<ImageView
+        	android:id="@+id/userImage"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:layout_centerVertical="true"
+        	android:padding="5dp"
+        	android:src="@null" />
+    	
+    	<TextView
+        	android:id="@+id/tunedBy"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_toRightOf="@id/userImage"
+        	android:textColor="@android:color/darker_gray"
+        	android:textSize="12sp"
+        	android:text="@string/tuned_by" />
+    	
+		<TextView
+        	android:id="@+id/userName"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_toRightOf="@id/userImage"
+        	android:layout_below="@id/tunedBy"
+        	android:paddingTop="2dp"
+        	android:textSize="15sp" />
+	
+    </RelativeLayout>
+ -->    
+</LinearLayout>

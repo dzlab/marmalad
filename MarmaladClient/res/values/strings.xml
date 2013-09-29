@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MarmaladClient</string>
+    <string name="action_share">share</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="menu_initiate_session">Initiate session</string>
+    <string name="menu_close_session">Quit</string>
+    <string name="label_initiate_session">Initiate session</string>
+	<string name="title_msg">Information</string>
+	<string name="label_ok">OK</string>
+		
+	<string name="tuned_by">Tuned by</string>
+	<string name="user_name">Username</string>    
+    <string name="notifications">Notifications</string>
+    <string name="empty_notifications_message">News will show up here.</string>
+	<string name="empty_notifications_detail">We\'ll notify you of activity including favorites, tunedins and follows.</string>
+	
+	<string name="menu_profile">Profile</string>
+    <string name="menu_images">Images</string>
+    <string name="menu_media">Media</string>
+    <string name="menu_audio">Audio</string>
+    
+</resources>
